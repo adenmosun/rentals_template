@@ -1,5 +1,4 @@
 
-
 ## Introduction
 * **rentals_template** home page of a film rental company.
 
