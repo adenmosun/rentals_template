@@ -1,5 +1,10 @@
 * {
 	font-family: courier;
+
+}
+
+html, body {
+  height: 100%;
 }
 
 
@@ -13,6 +18,7 @@
 footer {
     background-color: #f2f2f2;
     padding: 25px;
+    margin-top: 50%;
 }
 
 
@@ -23,3 +29,107 @@ footer {
   }
 
 
+.full {
+background: url("../image/bgImage.jpeg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media (max-width: 600px) {
+    nav, content {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.content {
+  float: center;
+    padding: 20px;
+    width: 40%;
+    background-color: #f1f1f1;
+    height: 500; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    font-family: courier;
+}
+
+.navbar-brand {
+    position: relative;
+    background: url("../image/logoImage.png");
+    width: 55px;
+    left: 15px;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.form-group {
+  margin-top: 2%;
+}
+
+header {
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+
+.element {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  margin-top: 10%;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: yellow;
+  }
+}
+
+button {
+  text-align: right;
+}
+
+
+#title  {
+  font-weight: 100;
+  font-size: 40px;
+  margin-top: 20px;
+  font-family: courier;
+  color: #FF905E;
+  margin-left: 160px;
+
+}
+
+#animebtn {
+  margin-top: 10px;
+}
