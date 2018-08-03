@@ -8,6 +8,15 @@ $(document).ready(function(){
 });
 
 
+// $(document).ready(function(){
+//     $("#hidesub").click(function(){
+//         $("#subscribe").hide(1000);
+//     });
+//     $("#showsub").click(function(){
+//         $("form").show();
+//     });
+// });
+
 $(document).ready(function(){
     $("#hidebtn").click(function(){
         $("#myCarousel").hide(1000);

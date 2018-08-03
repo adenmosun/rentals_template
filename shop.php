@@ -20,18 +20,23 @@
   	<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="./index.html"></a>
+      <a class="navbar-brand" href="./index.php"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./main.html">About</a></li>
-        <li><a href="./scenes.html">Scenes</a></li>
-        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./index.php">Home</a></li>
+        <li><a href="./main.php">About</a></li>
+        <li><a href="./scenes.php">Scenes</a></li>
+        <li><a href="./contact.php">Contact</a></li>
         <li class="active"><a href="#">Store</a></li>
       </ul>
+      
+
+
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-film"></span></a></li>
+        <a href="subscribe.php">  <button type="button" id="btnsub" class="btn btn-info btn-sm" >
+         <span class="glyphicon glyphicon-film" ></span> Subscribe
+        </button></a>
       </ul>
     </div>
   </div>
