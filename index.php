@@ -1,3 +1,8 @@
+<?php
+
+//start session
+session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,7 +36,7 @@
         <li><a href="./scenes.php">Scenes</a></li>
         <li><a href="./contact.php">Contact</a></li>
         <li><a href="./shop.php">Store</a></li>
-        <li><a href="./main.php"><span style="color:#BE33FF">Leap Years</span></a></li></span>
+        <li><a href="./api/endpoints.php"><span style="color:#BE33FF">Api Endpoints</span></a></li></span>
       </ul>
 
 
@@ -40,10 +45,15 @@
         <a href="subscribe.php">  <button type="button" id="btnsub" class="btn btn-info btn-sm" >
          <span class="glyphicon glyphicon-film" ></span> Subscribe
         </button></a>
+
+          <button class="loginbtn"><a href="./php/login.php">Login</a>
+          </button>
+        
       </ul>
     </div>
   </div>
 </nav>
+
 
 
 

@@ -1,3 +1,9 @@
+
+
+
+// jquery
+
+
 $(document).ready(function(){
     $("#hidebtn").click(function(){
         $("form").hide(1000);
@@ -7,15 +13,6 @@ $(document).ready(function(){
     });
 });
 
-
-// $(document).ready(function(){
-//     $("#hidesub").click(function(){
-//         $("#subscribe").hide(1000);
-//     });
-//     $("#showsub").click(function(){
-//         $("form").show();
-//     });
-// });
 
 $(document).ready(function(){
     $("#hidebtn").click(function(){
@@ -60,3 +57,33 @@ $(document).ready(function () {
     });
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// vanilla javascript
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
