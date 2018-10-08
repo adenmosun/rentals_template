@@ -111,8 +111,8 @@ session_start();
 <div class="container-fluid bg-3 text-center">    
   <div class="row">
     <div class="col-sm-3">
-      <p>Skyscraper</p>
-      <img src="https://www.goodrichqualitytheaters.com/image?url=https://api.goodrichqualitytheaters.com/CDN/Image/Entity/FilmPosterGraphic/h-HO00004088" class="img-responsive" style="width:100%" alt="Image">
+      <p>Crazy Rich Asians</p>
+      <img src="https://images-eu.ssl-images-amazon.com/images/I/51u8I%2BmRd3L.jpg" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-3"> 
       <p>Jumanji</p>
